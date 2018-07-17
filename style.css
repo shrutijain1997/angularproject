@@ -1,0 +1,68 @@
+body {
+	background-image: url("../images/background.png") ;
+}
+
+.login {
+    margin:0 auto;
+    position: relative;
+    top:150px;
+	
+}
+#ip2 {
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 270px;
+    height: 5px;    
+}
+button {
+    border-radius: 25px;
+    border:2px solid LightSeaGreen;
+	background-color:LightSeaGreen;
+    padding:20px;
+    width:270px;
+    height: 3px;
+    line-height: 2px;
+    color: white;
+
+}
+.col-md-4.section-center {
+    /* text-align: center; */
+    float: none !important;
+    display: block;
+    margin: 0 auto;
+}
+label {
+	color: white;
+    font-size: 13px;
+    margin-left: 70px;	
+    text-decoration: underline;
+    cursor: pointer;
+}
+.inner-addon { 
+    position: relative; 
+    
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 15px;
+  pointer-events: none;
+
+}
+
+.left-addon .glyphicon  { left:  0px;}
+.left-addon input  { padding-left:  35px; }
+.logo {
+    margin:0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.abc {
+         margin-left:35px; 
+
+}
+
